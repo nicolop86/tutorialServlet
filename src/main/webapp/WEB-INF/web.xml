@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	version="3.1">
+	<display-name>tutorialServlet</display-name>
+	<servlet>
+		<servlet-name>MyFirstServlet</servlet-name>
+		<servlet-class>it.ariadne.tutorialServlet.MyFirstServlet</servlet-class>
+<!-- 		<load-on-startup>1</load-on-startup> -->
+	</servlet>
+	<!--<servlet-mapping>
+		<servlet-name>MyFirstServlet</servlet-name>
+		<url-pattern>/seiMongo</url-pattern>
+		<url-pattern>/MyFirstServlet</url-pattern>
+	</servlet-mapping>-->
+</web-app>
